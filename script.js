@@ -1,8 +1,8 @@
-document.getElementById("count-element").innerText = 4;
-document.getElementById("myButton").innerHTML = "Increase";
-let counterDisplay = document.getElementById("count-element").innerText;
-let clickElement = document.getElementById("myButton").innerHTML;
-// alert (counterDisplay);
-clickElement.addEventListener("click", incrementFunc() {
-    counterDisplay = 1;
-});
+document.getElementById("count-element").innerText;
+document.getElementById("myButton").innerHTML;
+document.getElementById("myButton").innerHTML.addEventListener("click", incrementFunc());
+function incrementFunc() {
+    document.getElementById("text-item").innerText
+    document.getElementById("count-element").innerText ++;
+};
+
