@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid blue;
+    width: 350px;
+    height: 250px;
+}
+
+button {
+    background-color: blueviolet;
+}

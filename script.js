@@ -1,10 +1,7 @@
-const countDisplay = document.getElementById("count-element");
-const clickElement =  document.getElementById("myButton");
-document.getElementById("myButton").addEventListener("click", incrementFunc());
-
-let display = countDisplay.innerHTML
+let countElement = document.getElementById("count-element");
+let count = 0
+// let clickElement = document.getElementById("myButton");
+clickElement.addEventListener("click", incrementFunc());
 function incrementFunc() {
-    // document.getElementById("text-item").innerText
-    display++;
+   countElement.innerHTML = count++;
 };
-
